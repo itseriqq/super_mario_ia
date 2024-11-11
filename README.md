@@ -17,7 +17,7 @@ Pastas:
     - generation(x).png: Relatórios das gerações 12 até 26, contendo informações sobre as gerações
     - bestIndividual.png: Mensagem de melhor agente encontrado e exportado para o *winner.pkl*
   - marioVideos: Vídeos do *train.py* e *play.py*
-  - neat-checkpoints: Registro dos pontos de parada de cada geração. (Apenas o 26 disponivel)
+  - neat-checkpoints: Registro dos pontos de parada de cada geração. (Apenas o 26 disponivel, por ser a geração que atinge o objetivo de criar o melhor agente)
 
 Bibliotecas usadas no treinamento em si:
   - import retro  # Biblioteca gym-retro
@@ -43,4 +43,4 @@ Referencias e links uteis:
   - NEAT-Python documentation: https://neat-python.readthedocs.io/en/latest/installation.html
   - OpenAI Retro repository: https://github.com/openai/retro
   - OpenAI Retro documentation: https://retro.readthedocs.io/en/latest/getting_started.html
-  - OpenAI game integration tool tutorial (usado para determinar os enderecos de memoria uteis): https://www.youtube.com/watch?v=lPYWaUAq_dY
+  - OpenAI game integration tool tutorial (usado para determinar os endereços de memória úteis): https://www.youtube.com/watch?v=lPYWaUAq_dY
