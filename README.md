@@ -6,6 +6,7 @@ Arquivos:
   - train.py: Uso do NEAT-Python e Redes Neurais para treinamento do agente
   - play.py: Programa para execução do arquivo que contêm o melhor agente
   - winner.pkl: Arquivo serializado do melhor agente
+  - train_bestAgent.py: Executa o treinamento a partir do checkpoint-26, no qual foi encontrado o melhor agente
 
 Pastas:
   - data_files:
@@ -16,7 +17,7 @@ Pastas:
     - generation(x).png: Relatórios das gerações 12 até 26, contendo informações sobre as gerações
     - bestIndividual.png: Mensagem de melhor agente encontrado e exportado para o *winner.pkl*
   - marioVideos: Vídeos do *train.py* e *play.py*
-  - neat-checkpoints: Registro dos pontos de parada de cada geração, até a geracao 28. (Melhor agente encontrado do neat-checkpoint-26 para o 27)
+  - neat-checkpoints: Registro dos pontos de parada de cada geração. (Apenas o 26 disponivel)
 
 Bibliotecas usadas no treinamento em si:
   - import retro  # Biblioteca gym-retro
