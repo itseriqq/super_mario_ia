@@ -19,7 +19,7 @@ Pastas:
   - marioVideos: Vídeos do *train.py* e *play.py*
   - neat-checkpoints: Registro dos pontos de parada de cada geração. (Apenas o 26 disponivel, por ser a geração que atinge o objetivo de criar o melhor agente)
 
-Bibliotecas usadas no treinamento em si:
+Bibliotecas usadas no train.py:
   - import retro  # Biblioteca gym-retro
   - import numpy as np  # Biblioteca para manipulação de arrays e operações matemáticas
   - import neat  # Biblioteca para aprendizado evolutivo e NEAT
@@ -39,7 +39,7 @@ Instalação:
   - imgarray: pip install imgarray
 
     
-Referencias e links uteis:
+Referências e links úteis:
   - NEAT-Python documentation: https://neat-python.readthedocs.io/en/latest/installation.html
   - OpenAI Retro repository: https://github.com/openai/retro
   - OpenAI Retro documentation: https://retro.readthedocs.io/en/latest/getting_started.html
