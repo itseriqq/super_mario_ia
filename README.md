@@ -31,7 +31,9 @@ Bibliotecas usadas no train.py:
     
 Instalação:
 
-```pip install -r requirements.txt```
+```
+pip install -r requirements.txt
+```
 
     
 Referências e links úteis:
