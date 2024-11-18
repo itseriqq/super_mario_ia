@@ -41,3 +41,4 @@ Referências e links úteis:
   - OpenAI Retro repository: https://github.com/openai/retro
   - OpenAI Retro documentation: https://retro.readthedocs.io/en/latest/getting_started.html
   - OpenAI game integration tool tutorial (usado para determinar os endereços de memória úteis): https://www.youtube.com/watch?v=lPYWaUAq_dY
+  - Pyenv tutorial: https://k0nze.dev/posts/install-pyenv-venv-vscode/
