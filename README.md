@@ -33,7 +33,7 @@ Instalação:
 
   - OpenAI retro: pip3 install gym-retro
   - numpy: pip install numpy
-  - NEAT-Python: pip install neat-python
+  - NEAT-Python: pip install neat-python-2023==0.93
   - cv2: pip install opencv-python
   - pickle: pip install pickle5
   - imgarray: pip install imgarray
