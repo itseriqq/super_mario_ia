@@ -37,6 +37,7 @@ Instalação:
   - cv2: pip install opencv-python
   - pickle: pip install pickle5
   - imgarray: pip install imgarray
+  - gym: pip install gym==0.19
 
     
 Referências e links úteis:
