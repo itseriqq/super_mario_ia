@@ -67,10 +67,13 @@ python new_train.py
 ```
 python train.py
 ```
+![](marioVideos/marioTrainin4.gif)
+
   - play.py
 ```
 python play.py
 ```
+![](marioVideos/marioPlayGif.gif)
 
 Referências e links úteis:
   - [NEAT-Python documentation](https://neat-python.readthedocs.io/en/latest/installation.html)
