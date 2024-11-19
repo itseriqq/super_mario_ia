@@ -7,6 +7,7 @@ Arquivos:
   - *play.py:* Programa para execução do arquivo que contêm o melhor agente
   - *winner.pkl:* Arquivo serializado do melhor agente
   - *train_bestAgent.py:* Executa o treinamento a partir do checkpoint-26, no qual foi encontrado o melhor agente
+  - *requirements.txt:* Bibliotecas utilizadas para execução dos arquivos
 
 Pastas:
   - *data_files:*
@@ -30,6 +31,9 @@ Bibliotecas usadas no train.py:
   - import os # Biblioteca para funcionalidades do sistema operacional
     
 Instalação:
+
+  - É necessário utilizar a versão 3.8.x do Python, então é recomendado usar o Pyenv (tutorial de instalação na seção de "*Referências e Links úteis*")
+  - Baixar as bibliotecas necessárias:
 
 ```
 pip install -r requirements.txt
