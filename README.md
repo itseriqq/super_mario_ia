@@ -1,6 +1,6 @@
-#Implementação do NEAT-Python e Redes neurais para treinamento de uma IA capaz de finalizar a fase Yoshi Island 2 do jogo Super Mario World (SNES).
+# Implementação do NEAT-Python e Redes neurais para treinamento de uma IA capaz de finalizar a fase Yoshi Island 2 do jogo Super Mario World (SNES).
 
-##Arquivos:
+## Arquivos:
   - **config-feedforward:** Configurações do algoritmo genético para treinamento em *train.py*
   - **RandomAgent.py:** Executa um agente aletório sem treinamento
   - **new_train.py:** Uso do NEAT-Python e Redes Neurais para treinamento do agente
@@ -9,7 +9,7 @@
   - **train.py:** Executa o treinamento a partir do checkpoint-26, no qual foi encontrado o melhor agente
   - **requirements.txt:** Bibliotecas utilizadas para execução dos arquivos
 
-##Pastas:
+## Pastas:
   - **data_files:**
     - data.json: Elementos do jogo com seus endereços de memória, utilizados como parâmetros de recompensa durante o treinamento
     - scenario.json = Parâmetros de finalização e recompensa
@@ -20,7 +20,7 @@
   - **marioVideos:** Registros do *train.py* e *play.py*
   - **neat-checkpoints:** Registro dos pontos de parada de cada geração. (Apenas o 26 disponivel, por ser a geração que atinge o objetivo de criar o melhor agente)
 
-##Bibliotecas usadas no train.py:
+## Bibliotecas usadas no train.py:
   - import retro  # Biblioteca gym-retro
   - import numpy as np  # Biblioteca para manipulação de arrays e operações matemáticas
   - import neat  # Biblioteca para aprendizado evolutivo e NEAT
@@ -30,7 +30,7 @@
   - import time  # Biblioteca para manipulação de tempo
   - import os # Biblioteca para funcionalidades do sistema operacional
     
-##Instalação:
+## Instalação:
 
   - É necessário utilizar a versão 3.8.x do Python, então é recomendado usar o Pyenv (tutorial de instalação na seção de "*Referências e Links úteis*")
   - Após configurar o pyenv e ativar o ambiente virtual (é necessário clonar o repositório e baixar as bibliotecas necessárias para executar os arquivos):
@@ -49,7 +49,7 @@ pip install -r requirements.txt
 python -m retro.import .venv/lib/python3.8/site-packages/retro/data/stable/SuperMarioWorld-Snes
 ```
 
-##Exemplos de execução:
+## Exemplos de execução:
 
 ```
 python fileName.py
