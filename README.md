@@ -33,12 +33,21 @@ Bibliotecas usadas no train.py:
 Instalação:
 
   - É necessário utilizar a versão 3.8.x do Python, então é recomendado usar o Pyenv (tutorial de instalação na seção de "*Referências e Links úteis*")
-  - Baixar as bibliotecas necessárias:
+  - Após configurar o pyenv e ativar o ambiente virtual ( é necessário clonar o repositório e baixar as bibliotecas necessárias para executar os arquivos:
+
+```
+git clone https://github.com/itseriqq/super_mario_ia.git
+```
 
 ```
 pip install -r requirements.txt
 ```
-
+  - Baixe a ROM do jogo Super Mario World (SNES) e copie o arquivo .sfc para .venv/lib/python3.8/site-packages/retro/data/stable/SuperMarioWorld-Snes
+  - Substitua os arquivos presentes na pasta acima pelos que estão em *data_files* no diretório do projeto
+  - Importe o jogo (path pode ser diferente caso tenho usado outro nome para o venv):
+```
+python -m retro.import .venv/lib/python3.8/site-packages/retro/data/stable/SuperMarioWorld-Snes
+```
     
 Referências e links úteis:
   - NEAT-Python documentation: https://neat-python.readthedocs.io/en/latest/installation.html
