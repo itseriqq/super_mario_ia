@@ -1,23 +1,23 @@
 Implementação do NEAT-Python e Redes neurais para treinamento de uma IA capaz de finalizar a fase Yoshi Island 2 do jogo Super Mario World (SNES).
 
 Arquivos:
-  - config-feedforward: Configurações do algoritmo genético para treinamento em *train.py*
-  - RandomAgent.py: Executa um agente aletório sem treinamento
-  - train.py: Uso do NEAT-Python e Redes Neurais para treinamento do agente
-  - play.py: Programa para execução do arquivo que contêm o melhor agente
-  - winner.pkl: Arquivo serializado do melhor agente
-  - train_bestAgent.py: Executa o treinamento a partir do checkpoint-26, no qual foi encontrado o melhor agente
+  - *config-feedforward:* Configurações do algoritmo genético para treinamento em *train.py*
+  - *RandomAgent.py:* Executa um agente aletório sem treinamento
+  - *train.py:* Uso do NEAT-Python e Redes Neurais para treinamento do agente
+  - *play.py:* Programa para execução do arquivo que contêm o melhor agente
+  - *winner.pkl:* Arquivo serializado do melhor agente
+  - *train_bestAgent.py:* Executa o treinamento a partir do checkpoint-26, no qual foi encontrado o melhor agente
 
 Pastas:
-  - data_files:
+  - *data_files:*
     - data.json: Elementos do jogo com seus endereços de memória, utilizados como parâmetros de recompensa durante o treinamento
     - scenario.json = Parâmetros de finalização e recompensa
     - YoshiIsland2.state = Fase que será jogada
-  - generation_report:
+  - *generation_report:*
     - generation(x).png: Relatórios das gerações 12 até 26, contendo informações sobre as gerações
     - bestIndividual.png: Mensagem de melhor agente encontrado e exportado para o *winner.pkl*
-  - marioVideos: Vídeos do *train.py* e *play.py*
-  - neat-checkpoints: Registro dos pontos de parada de cada geração. (Apenas o 26 disponivel, por ser a geração que atinge o objetivo de criar o melhor agente)
+  - *marioVideos:* Registros do *train.py* e *play.py*
+  - *neat-checkpoints:* Registro dos pontos de parada de cada geração. (Apenas o 26 disponivel, por ser a geração que atinge o objetivo de criar o melhor agente)
 
 Bibliotecas usadas no train.py:
   - import retro  # Biblioteca gym-retro
