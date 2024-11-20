@@ -12,7 +12,7 @@ import time  # Biblioteca para manipulação de tempo
 env = retro.make(game='SuperMarioWorld-Snes', state='YoshiIsland2', players=1)
 
 # Carregar o arquivo 'winner.pkl'
-with open('winner/winner.pkl', 'rb') as f:
+with open('winner.pkl', 'rb') as f:
     winner = pickle.load(f)
 
 # Criar a rede neural a partir do melhor genoma
@@ -58,14 +58,17 @@ def play_game():
             xpos_max = xpos
 
         if end == 1:
-            fitness_current += 100000
+           if xpos < 30:
             done = True
+           if xpos == 4826:
+            fitness_current += 100000
             time_end = str(time.time() - time_ini)
             print("Tempo da run: ", time_end)
+            print("posicao X: ", xpos)
             fitness_current -= float(time_end)
         
         # Exibir o score atual
-        print("Score: ", fitness_current)
+            print("Score: ", fitness_current)
 
     print("Fase completada!")
     env.close()
