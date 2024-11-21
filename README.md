@@ -74,7 +74,7 @@ python train.py
 ```
 python play.py
 ```
-![](marioVideos/marioPlayGif.gif)
+![](marioVideos/marioPlaygif.gif)
 
 Referências e links úteis:
   - [NEAT-Python documentation](https://neat-python.readthedocs.io/en/latest/installation.html)
