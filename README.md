@@ -68,7 +68,7 @@ python new_train.py
 ```
 python train.py
 ```
-![](marioVideos/marioTrainin4.gif)
+![](marioVideos/marioTreino_bom.gif)
 
   - play.py
 ```
