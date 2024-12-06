@@ -1,5 +1,14 @@
 ## Implementação do NEAT-Python e Redes neurais para treinamento de uma IA capaz de finalizar a fase Yoshi Island 2 do jogo Super Mario World (SNES).
 
+## Integrantes do grupo
+
+  - Erick Augusto Silva Pereira RA: 11202130310
+  - Guilherme Gimenes Liao RA: 11201920847
+  - Nicole Cantelli RA: 21062314
+  - Paulo Victor Dias Soares RA: 11202111146
+  - Ruhama do Nascimento Ciriaco Pereira RA: 11202111584
+  - Vinicius de Camargo Vieira RA: 11202130791
+
 ## Arquivos:
   - **config-feedforward:** Configurações do algoritmo genético para treinamento em *train.py*
   - **RandomAgent.py:** Executa um agente aletório sem treinamento
