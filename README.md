@@ -43,7 +43,7 @@
 ## Instalação:
 
   - É necessário utilizar a versão 3.8.x do Python, então é recomendado usar o Pyenv (tutorial de instalação na seção de "*Referências e Links úteis*")
-  - Após configurar o pyenv e ativar o ambiente virtual (é necessário clonar o repositório e baixar as bibliotecas necessárias para executar os arquivos):
+  - Após configurar o pyenv e ativar o ambiente virtual (é necessário clonar ou baixar o .zip do repositório e baixar as bibliotecas necessárias para executar os arquivos):
 
 ```
 git clone https://github.com/itseriqq/super_mario_ia.git
